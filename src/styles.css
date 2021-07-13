@@ -1,0 +1,80 @@
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: #8a639b;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+h4 {
+  margin: 10px;
+}
+
+h3 {
+  margin: 5px;
+}
+
+h2 {
+  color: white;
+}
+
+#header {
+  background-color: #745285;
+  color: #baa9c3;
+  margin: 0px 0px 3em 0px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#title {
+  position: fixed;
+  /* or absolute */
+  left: 50%;
+}
+
+button {
+  background-color: #a086ab;
+  color: white;
+  border: 0px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #91759e;
+}
+
+.bigbutton {
+  display: flex;
+  align-items: center;
+}
+
+#top-in {
+  background-color: #a086ab;
+  height: 100%;
+  margin-left: 5px;
+  display: flex;
+  border-radius: 3px;
+}
+
+#top-in > input {
+  background-color: transparent;
+  border: none;
+}
+
+#left-side {
+  display: flex;
+}
+
+#dragboi {
+  margin: 5px;
+}
+
+.MuiCardContent-root {
+  padding: 10px !important;
+}
+
+/*# sourceMappingURL=styles.css.map */
